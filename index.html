@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- JS SCRIPT -->
+    <script src="calendar.js" defer></script>
+
+    <!-- CSS STYLESHEETS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- TITLE -->
+    <title>Fluent Calendar</title>
+    <!-- TITLE TAB ICON -->
+    <link rel="icon" href="img/calendar-number-outline.svg">
+  </head>
+  <body>
+    <!-- DAY PART OF THE PAGE -->
+    <main class="calendar-day">
+      <div class="calendar-day-container">
+        
+        <!-- Day part of the page - header -->
+        <div class="calendar-day-head">
+          <span class="calendar-day-head-date"></span>
+          <div class="calendar-day-head-icons">
+            <!-- Search Icon -->
+            <ion-icon
+              class="calendar-day-head-icons-item"
+              name="search-outline"
+            ></ion-icon>
+            <!-- Tiles Icon -->
+            <ion-icon
+              class="calendar-day-head-icons-item"
+              name="grid-outline"
+            ></ion-icon>
+          </div>
+        </div>
+
+        <!-- Day part of the page - hours -->
+        <div class="calendar-day-body">
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">9:00</span>
+            <!-- Planned event number one -->
+            <!-- <div class="calendar-day-body-event-tag event-1">
+              <span class="calendar-day-body-event"
+                >Meet Sophia in airport</span
+              >
+            </div> -->
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">10:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">11:00</span>
+            <!-- Planned event number two -->
+            <!-- <div class="calendar-day-body-event-tag event-2">
+              <span class="calendar-day-body-event">Studio Workshop</span>
+            </div> -->
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">12:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">13:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">14:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">15:00</span>
+            <!-- Planned event number 3 -->
+            <!-- <div class="calendar-day-body-event-tag event-3">
+              <span class="calendar-day-body-event"
+                >Design workshop with Johny Ive</span
+              >
+            </div> -->
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">16:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">17:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">18:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">19:00</span>
+          </div>
+          <div class="calendar-day-body-hour-slot">
+            <span class="calendar-day-body-hour-tag">20:00</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- MONTH & CATEGORIES PART OF THE PAGE -->
+    <aside class="calendar-month">
+      <div class="calendar-month-container">
+
+        <!-- Month & Categories part of page - header -->
+        <div class="calendar-month-head ">
+          <a class="chevron-back-outline"><ion-icon
+            class="calendar-month-head-icons"
+            name="chevron-back-outline"
+          ></ion-icon></a>
+          <span class="calendar-month-head-name">March 2022</span>
+          <a class="chevron-forward-outline"><ion-icon
+            class="calendar-month-head-icons"
+            name="chevron-forward-outline"
+          ></ion-icon></a>
+        </div>
+
+        <!-- Month & Categories part of page - body -->
+        <div class="calendar-month-body">
+
+          <!-- Month & Categories part of page - calendar table -->
+          <div class="calendar-month-body-table">
+            <span class="calendar-month-body-table-days">M</span>   
+            <span class="calendar-month-body-table-days">T</span>   
+            <span class="calendar-month-body-table-days">W</span>   
+            <span class="calendar-month-body-table-days">Th</span>   
+            <span class="calendar-month-body-table-days">F</span>   
+            <span class="calendar-month-body-table-days">Sat</span>   
+            <span class="calendar-month-body-table-days">Sun</span>   
+            <span class="calendar-month-body-table-dates">1</span>   
+            <span class="calendar-month-body-table-dates">2</span>   
+            <span class="calendar-month-body-table-dates">3</span>   
+            <span class="calendar-month-body-table-dates">4</span>   
+            <span class="calendar-month-body-table-dates">5</span>   
+            <span class="calendar-month-body-table-dates">6</span>   
+            <span class="calendar-month-body-table-dates">7</span>   
+            <span class="calendar-month-body-table-dates">8</span>   
+            <span class="calendar-month-body-table-dates">9</span>   
+            <span class="calendar-month-body-table-dates">10</span>   
+            <span class="calendar-month-body-table-dates">11</span>   
+            <span class="calendar-month-body-table-dates">12</span>   
+            <span class="calendar-month-body-table-dates">13</span>   
+            <span class="calendar-month-body-table-dates">14</span>   
+            <span class="calendar-month-body-table-dates">15</span>   
+            <span class="calendar-month-body-table-dates">16</span>   
+            <span class="calendar-month-body-table-dates">17</span>   
+            <span class="calendar-month-body-table-dates">18</span>   
+            <span class="calendar-month-body-table-dates">19</span>   
+            <span class="calendar-month-body-table-dates">20</span>   
+            <span class="calendar-month-body-table-dates">21</span>   
+            <span class="calendar-month-body-table-dates">22</span>   
+            <span class="calendar-month-body-table-dates">23</span>   
+            <span class="calendar-month-body-table-dates">24</span>   
+            <span class="calendar-month-body-table-dates">25</span>   
+            <span class="calendar-month-body-table-dates">26</span>   
+            <span class="calendar-month-body-table-dates">27</span>   
+            <span class="calendar-month-body-table-dates">28</span>   
+            <span class="calendar-month-body-table-dates">29</span>   
+            <span class="calendar-month-body-table-dates">30</span>   
+            <span class="calendar-month-body-table-dates">31</span>   
+            <span class="calendar-month-body-table-dates">01</span>   
+            <span class="calendar-month-body-table-dates">02</span>   
+            <span class="calendar-month-body-table-dates">03</span>   
+            <span class="calendar-month-body-table-dates">04</span>   
+          </div>
+
+            <!-- Month & Categories part of page - your categories box -->
+          <div class="calendar-month-body-your-categories">
+            <span class="calendar-month-body-your-categories-title">Your categories</span>
+            <div class="calendar-month-body-your-categories-container">
+              <div class="calendar-month-body-your-categories-container-box finance">FINANCE</div>
+              <div class="calendar-month-body-your-categories-container-box management">MANAGEMENT</div>
+              <div class="calendar-month-body-your-categories-container-box design">DESIGN</div>
+              <div class="calendar-month-body-your-categories-container-box"></div>
+            </div> 
+          </div>
+          </tab>
+        </div>
+      </div>
+    </aside>
+
+    <!-- SCRIPTS FOR USING ION-ICONS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></scrip>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    
+  </body>
+</html>
